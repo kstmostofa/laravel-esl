@@ -7,7 +7,7 @@
         "event socket",
         "gsm"
     ],
-    "homepage": "
+    "homepage": "https://github.com/kstmostofa/laravel-esl",
     "type": "library",
     "license": "MIT",
     "authors": [
