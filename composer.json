@@ -1,0 +1,42 @@
+{
+    "name": "kstmostofa/laravel-esl",
+    "description": "A Laravel package for FreeSWITCH ESL connection.",
+    "keywords": [
+        "esl",
+        "freeswitch",
+        "event socket",
+        "gsm"
+    ],
+    "homepage": "
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md Mostafijur Rahman",
+            "email": "mostofa122@gmail.com",
+            "homepage": "https://mostofa.me",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kstmostofa\\LaravelEsl\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kstmostofa\\LaravelEsl\\LaravelEslServiceProvider"
+            ],
+            "aliases": {
+                "Esl": "Kstmostofa\\LaravelEsl\\Facades\\Esl"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
